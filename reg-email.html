@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>    
+        <title>Jogjabisnis | Halaman Utama</title>
+        
+        <!-- Meta Tags -->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="description" content="Jogjabisnis menyediakan stok untuk anda">
+        <meta name="keywords" content="jogja, yogya, bisnis, pulsa, paket data, tiket pesawat, tagihan pln, token pln, bpjs, telkom, tiket kereta api, tv kabel, voucher games, hotel">
+        <meta name="author" content="jogjabisnis developer team">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Icon -->
+<!--
+        <link rel="shortcut icon" href="images/icons/favicon.ico">
+        <link rel="icon" sizes="130x128" href="images/icons/favicon.ico">
+        <link rel="apple-touch-icon" sizes="130x128" href="images/icons/favicon.ico">
+-->
+        
+        <!-- Stylesheets -->
+        <link rel="stylesheet" type="text/css" href="assets/vendor/boostrap.3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/vendor/malihu.custom.scrollbar/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/.css">
+        
+    </head>
+    <body>
+        
+        <header>
+          <div class="hero">
+            <div class="hero-custom-bg">
+              
+            </div>
+          </div>
+        </header>
+         
+        <!-- Daftar Produk -->
+        <div class="content">
+         
+          <section class="content-inner">
+            
+          </section>
+
+          <!-- Title -->
+          <section class="title">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 headline">
+					<h1 class="title-up">JogjaBisnis</h1>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <!-- More Games Pop-up -->
+          <div class="modal fade in product-modal" id="gamesmodal" tabindex="-1" role="dialog" aria-labelledby="gamesmodalLabel" aria-hidden="true" data-backdrop="static">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+
+                <!-- Pop-up header -->
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="assets/images/icons/ico-close.svg" width="24" height="26">
+                  </button>
+                  <h4 class="modal-title" id="gamesmodalLabel">Daftar Voucher Games</h4>
+                </div>
+
+                <!-- Pop-up Content -->
+                <div class="modal-body">
+                  <div class="row game-lists">
+                    <div class="col-lg-6">
+                      <p class="item-game"><span class="jbicon jbicon-gemschool"></span> Gemscool Game Card</p>
+                    </div>
+                    <div class="col-lg-6">
+                      <p class="item-game"><span class="jbicon jbicon-megaxus"></span> Megaxus Game Card</p>
+                    </div>
+                    <div class="col-lg-6">
+                      <p class="item-game"><span class="jbicon jbicon-cs-go"></span> CSGO Game Card</p>
+                    </div>
+                    <div class="col-lg-6">
+                      <p class="item-game"><span class="jbicon jbicon-bandai"></span> Capcom Game Card</p>
+                    </div>
+                    <div class="col-lg-6">
+                      <p class="item-game"><span class="jbicon jbicon-capcom"></span> Bandai Game Card</p>
+                    </div>
+                    <div class="col-lg-6">
+                      <p class="item-game"><span class="jbicon jbicon-ubisoft"></span> Ubisoft Game Card</p>
+                    </div>
+                    <div class="col-lg-6">
+                      <p class="item-game"><span class="jbicon jbicon-ea-games"></span> EA Game Card</p>
+                    </div>
+                    <div class="col-lg-6">
+                      <p class="item-game"><span class="jbicon jbicon-sega"></span> Sega Game Card</p>
+                    </div>
+                    <div class="col-lg-6">
+                      <p class="item-game"><span class="jbicon jbicon-megaxus"></span> Garena Game Card</p>
+                    </div>
+                    <div class="col-lg-6">
+                      <p class="item-game"><span class="jbicon jbicon-megaxus"></span> Rovio Game Card</p>
+                    </div>
+                    <div class="col-lg-6">
+                      <p class="item-game"><span class="jbicon jbicon-megaxus"></span> Atari Game Card</p>
+                    </div>
+                    <div class="col-lg-6">
+                      <p class="item-game"><span class="jbicon jbicon-megaxus"></span> Gameloft GameCard</p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer -->
+          <footer class="content-footer">
+          </footer>
+          
+        </div> 
+        
+        <!-- Javascript -->
+        <script type="text/javascript" src="assets/vendor/jquery.3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="assets/vendor/boostrap.3.3.7/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/vendor/malihu.custom.scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+        
+        <script type="text/javascript">
+          (function($){
+            $(window).on("load",function(){
+
+              $(".dropdown-menu-scrollbar").mCustomScrollbar({
+                theme:"dark",
+                mouseWheel:{ preventDefault:true }
+              });
+              
+              $("#gamesmodal .modal-body").mCustomScrollbar({
+                setHeight:418,
+                theme:"dark"
+              });
+
+            });
+          })(jQuery);
+        </script>
+        
+    </body>
+</html>
