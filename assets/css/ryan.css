@@ -211,9 +211,9 @@ ul{
 }
 .box-body{
   padding: 0;
-  width: 1440px;
-  height: 60px;
-  background-color: #ffffff;
+  width: 100%;
+  height: 855px;
+  background-color: #eff1f5;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
 
 }
@@ -1073,14 +1073,6 @@ ul{
     color: #949494;
     font-family: 'Helvetica', sans-serif;
 }
-.wizard p{    
-    margin: 0;
-    margin-left: 19%;
-    font-size:13px;
-    color: #949494;
-    padding-right: 5px;
-	font-family: 'Helvetica', sans-serif;
-}
 
 .wizard > .steps .disabled .disab, .wizard > .steps .disabled .disab, .wizard > .steps .disabled .disab{
         background: #aaa;
@@ -1150,20 +1142,34 @@ ul{
     letter-spacing: 0.5px;
     text-align: center;
     color: #404852;
-    padding-bottom: 80px;
-    margin-top: -1%;
+    padding-bottom: 50px;
+    margin-top: 4%;
 }
 
 /* --- Title-Form --- */
 
 .title-form{
-  width: 50%;
+    width: 50%;
     height: 48px;
     margin-left: 150px;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.5px;
-    text-align: center
+    text-align: center;
+	padding-top:40px;
+	padding-bottom:48px;
+}
+
+.title-form-2{
+	width: 70%;
+    height: 48px;
+    margin-left: 90px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 48px;
 }
 
 /* --- Label-form --- */
@@ -1177,7 +1183,8 @@ ul{
   text-align: left;
   color: #404852;
   margin-left: 40px;
-  margin-top: 48px;
+  padding-top: 23px;
+  padding-bottom:10px;
 }
 
 /* --- Password Input --- */
@@ -1188,7 +1195,9 @@ ul{
   background-color: #ffffff;
   border: solid 0.5px #cccccc;
   margin-left:39px;
+  padding-top:10px;
 }
+
 
 /* --- Desc-Form --- */
 .desc-form {
@@ -1199,14 +1208,26 @@ ul{
   text-align: left;
   color: #8c92a1;
   list-style:square;
-  margin-left:20px;
+  margin-left:50px;
 }
 
-ul li {
-  margin:5px;
-  border-radius:25px;
+/* --- Back Setting --- */
+
+.setting-back{
+  margin-left:160px;
+  width: 620px;
+  height: 523px;
+  border-radius: 5px;
+  background-color: #ffffff;
 }
 
+.setting-data{
+  margin-left:160px;
+  width: 620px;
+  height: 523px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
 
 /* --- Media Queries --- */
 @-ms-viewport{

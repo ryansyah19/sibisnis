@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <path id="a" d="M2 0h7.984a2 2 0 0 1 2 2.015C11.9 12.672 11.907 18 12 18H0V2a2 2 0 0 1 2-2z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path stroke="#187ABF" d="M28.5 28.5v-8.167V16a1.5 1.5 0 0 0-1.5-1.5h-5a1.5 1.5 0 0 0-1.5 1.5v11a1.5 1.5 0 0 0 1.5 1.5h6.5z"/>
+        <g fill="#187ABF" transform="translate(21.636 16.5)">
+            <rect width="1" height="2.5" rx=".5"/>
+            <rect width="1" height="2.5" x="2.291" rx=".5"/>
+            <rect width="1" height="2.5" x="4.582" rx=".5"/>
+        </g>
+        <g fill="#187ABF" transform="translate(21.636 20.667)">
+            <rect width="1" height="2.5" rx=".5"/>
+            <rect width="1" height="2.5" x="2.291" rx=".5"/>
+            <rect width="1" height="2.5" x="4.582" rx=".5"/>
+        </g>
+        <g fill="#187ABF" transform="translate(21.636 24.833)">
+            <rect width="1" height="2.5" rx=".5"/>
+            <rect width="1" height="2.5" x="2.291" rx=".5"/>
+            <rect width="1" height="2.5" x="4.582" rx=".5"/>
+        </g>
+        <g>
+            <g transform="translate(11 11)">
+                <use fill="#FFF" xlink:href="#a"/>
+                <path stroke="#187ABF" d="M.5 17.5H0l.5.5v-.5zm11.5 0z"/>
+            </g>
+            <g fill="#187ABF" transform="translate(13.571 13.571)">
+                <rect width="1.157" height="2.571" rx=".5"/>
+                <rect width="1.157" height="2.571" x="3.086" rx=".5"/>
+                <rect width="1.157" height="2.571" x="6.171" rx=".5"/>
+            </g>
+            <g fill="#187ABF" transform="translate(13.571 18.714)">
+                <rect width="1.157" height="2.571" rx=".5"/>
+                <rect width="1.157" height="2.571" x="3.086" rx=".5"/>
+                <rect width="1.157" height="2.571" x="6.171" rx=".5"/>
+            </g>
+            <g fill="#187ABF" transform="translate(13.571 23.857)">
+                <rect width="1.157" height="2.571" rx=".5"/>
+                <rect width="1.157" height="2.571" x="3.086" rx=".5"/>
+                <rect width="1.157" height="2.571" x="6.171" rx=".5"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -21,7 +21,9 @@
 {
     list-style: none !important;
     padding: 0;
-    margin: 0;
+	margin:0;
+	float:right;
+	width:100%;
 }
 
 .wizard ul > li,
@@ -57,6 +59,8 @@
     position: relative;
     display: block;
     width: 100%;
+	background-color:#fff;
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
 .wizard.vertical > .steps
@@ -74,7 +78,7 @@
 
 .wizard > .steps > ul > li
 {
-    width: 25%;
+    width: 34%;
 }
 
 .wizard > .steps > ul > li,
@@ -111,7 +115,9 @@
     color: #404852;
     cursor: default;
     opacity: 0.4;
-	margin-left: -26%;
+	margin-left: -58%;
+	padding-left: 160%;
+	width: 726px;
 }
 
 .wizard > .steps .current a,
@@ -121,14 +127,22 @@
     background: #ffffff;
     color: #404852;
     cursor: default;
+    width: 294.5%;
+    margin: 0;
+    margin-left: 125%;
+    /* padding-left: 160%; */
 }
 
 .wizard > .steps .done a,
 .wizard > .steps .done a:hover,
 .wizard > .steps .done a:active
 {
-    background: #9dc8e2;
-    color: #fff;
+    background: #ffffff;
+    color: #404852;
+    cursor: default;
+    width: 294.5%;
+    margin: 0;
+    margin-left: 150%;
 }
 
 .wizard > .steps .error a,
@@ -141,9 +155,8 @@
 
 .wizard > .content
 {
-    background: #eee;
+    background: #eff1f5;
     display: block;
-    margin: 0.5em;
     min-height: 35em;
     overflow: hidden;
     position: relative;
@@ -174,11 +187,13 @@
 .wizard > .content > .body ul
 {
     list-style: disc !important;
+	margin-top:25px;
 }
 
 .wizard > .content > .body ul > li
 {
     display: list-item;
+	margin-left:55px;
 }
 
 .wizard > .content > .body > iframe
@@ -192,6 +207,7 @@
 {
     display: block;
     border: 1px solid #ccc;
+	padding:20px 16px;
 }
 
 .wizard > .content > .body input[type="checkbox"]
@@ -223,8 +239,11 @@
 {
     position: relative;
     display: block;
-    text-align: right;
-    width: 100%;
+    text-align: center;
+    width: 64%;
+    margin-left: 184px;
+    background-color: #fff;
+	padding-top:39px;
 }
 
 .wizard.vertical > .actions
@@ -239,11 +258,13 @@
 {
     display: inline-block;
     text-align: right;
+	padding-bottom:41px;
 }
 
 .wizard > .actions > ul > li
 {
     margin: 0 0.5em;
+	display:none;
 }
 
 .wizard.vertical > .actions > ul > li
@@ -258,12 +279,18 @@
     background: #2184be;
     color: #fff;
     display: block;
-    padding: 0.5em 1em;
+    padding: 1em 2em;
     text-decoration: none;
-
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+	margin-left: 424px;
+    margin-right: 40px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f39748;
+    box-shadow: 0 10px 30px 0 rgba(243, 151, 72, 0.27);
 }
 
 .wizard > .actions .disabled a,
@@ -272,6 +299,7 @@
 {
     background: #eee;
     color: #aaa;
+	display:none;
 }
 
 .wizard > .loading
@@ -382,3 +410,4 @@
 {
     display: list-item;
 }
+
