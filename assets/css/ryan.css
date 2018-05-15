@@ -310,6 +310,7 @@ ul{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  background-color: #197abf;
 }
 .hero .hero-product{
   padding-bottom: 270px;
@@ -1229,6 +1230,79 @@ ul{
   background-color: #ffffff;
 }
 
+/* --- Wizard Action --- */
+.wizard > .actions
+{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 64%;
+    margin-left: 184px;
+    background-color: #fff;
+	padding-top:39px;
+}
+
+.wizard > .steps .current a,
+.wizard > .steps .current a:hover,
+.wizard > .steps .current a:active
+{
+    background: #ffffff;
+    color: #404852;
+    cursor: default;
+    width: 294.5%;
+    margin: 0;
+    margin-left: 125%;
+    /* padding-left: 160%; */
+}
+
+/* --- Step Clearfix ---*/
+
+.wizard > .steps {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+	border-bottom: 3px solid #eee;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* --- Wizard Content --- */
+
+.wizard > .content {
+    background: #eff1f5;
+    display: block;
+    min-height: 35em;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* --- Action Clearfix --- */
+
+.wizard > .actions a,
+.wizard > .actions a:hover,
+.wizard > .actions a:active
+{
+    background: #2184be;
+    color: #fff;
+    display: block;
+    padding: 1em 2em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	margin-left: 424px;
+    margin-right: 40px;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f39748;
+    box-shadow: 0 10px 30px 0 rgba(243, 151, 72, 0.27);
+}
+
 /* --- Media Queries --- */
 @-ms-viewport{
     width: device-width;
@@ -1279,7 +1353,16 @@ ul{
     min-height: inherit;
   }
   
-  
+  .wizard > .actions
+{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 66%;
+    margin-left: 184px;
+    background-color: #fff;
+	padding-top:39px;
+}
 }
 
 @media screen and (max-width: 991px){
@@ -1384,6 +1467,51 @@ ul{
     width: 100%;
   }
   
+ /* --- Wizard Action ---*/
+  
+  .wizard > .steps .current a,
+  .wizard > .steps .current a:hover,
+  .wizard > .steps .current a:active
+{
+    background: #ffffff;
+    color: #404852;
+    cursor: default;
+    width: 294.5%;
+    margin: 0;
+    margin-left: 100%;
+    /* padding-left: 160%; */
+}
+
+/* --- Back Setting ---*/
+
+.setting-back {
+    margin-left: 32px;
+    width: 620px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.setting-data {
+    margin-left: 32px;
+    width: 620px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* --- Wizard Action ---*/
+.wizard > .actions
+{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 86.2%;
+    margin-left: 50px;
+    background-color: #fff;
+    padding-top: 39px;
+}
+  
 }
 
 @media screen and (max-width: 829px){
@@ -1422,7 +1550,7 @@ ul{
   .nav-top .nav-button{
     border: none;
     border-radius: 3px;
-    background-color: #6873dd;
+    background-color: #57a0d3;
     box-shadow: 0 7px 12px 0 rgba(0, 0, 0, 0.04);
     position: absolute;
     right: 15px;
@@ -1442,7 +1570,7 @@ ul{
   }
   .navbar-default .navbar-toggle:focus,
   .navbar-default .navbar-toggle:hover {
-    background-color: rgba(130, 24, 191, 0.5);
+    background-color: #57a0d3;
     box-shadow: 0 7px 12px 0 rgba(0, 0, 0, 0.04);
   }
   
@@ -1456,6 +1584,13 @@ ul{
   .headline .caption{
     line-height: 2;
   }
+  
+  .headline {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    display: none;
+}
   
   /* --- Product --- */
   .hero .hero-product,
@@ -1603,7 +1738,526 @@ ul{
     letter-spacing: 0.4px;
   }
   
+  
+/* --- Step Clearfix --- */  
+  .wizard > .steps {
+    position: relative;
+    display: none;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
 }
+
+/* --- Title Jogja --- */
+
+.title-jogja {
+    width: 100%;
+    height: 27px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #404852;
+    padding-bottom: 50px;
+    margin-top: 4%;
+	display:none;
+}
+
+.content-reg-2 {
+    margin-top: -38%;
+}
+
+/* --- Wizard Content --- */
+
+.wizard > .content {
+    background: #fff;
+    display: block;
+    min-height: 35em;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	height:40em;
+}
+
+.wizard > .actions {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 86.2%;
+    margin-left: 50px;
+    background-color: #fff;
+    padding-top: 0px;
+    margin-top: -145px;
+}
+
+/* --- Title-Form --- */
+
+.title-form{
+    width: 50%;
+    height: 48px;
+    margin-left: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+	padding-top:5px;
+	padding-bottom:48px;
+}
+
+/* --- Box Body --- */
+.box-body {
+    padding: 0;
+    width: 100%;
+    height: 585px;
+    background-color: #eff1f5;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.hero-custom-bg {
+    background-image:none;
+}
+  
+}
+
+@media screen and (max-width: 740px){
+	.content-reg-2 {
+    margin-top: -39%;
+}
+}
+
+@media screen and (max-width: 730px){
+	.content-reg-2 {
+    margin-top: -40%;
+}
+}
+
+@media screen and (max-width: 720px){
+	.content-reg-2 {
+    margin-top: -41%;
+}
+}
+
+@media screen and (max-width: 710px){
+	.content-reg-2 {
+    margin-top: -42%;
+}
+}
+
+@media screen and (max-width: 700px){
+	.content-reg-2 {
+    margin-top: -41%;
+}
+
+	.setting-back {
+    margin-left: 0px;
+    width: 620px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+	.setting-data {
+    margin-left: 0px;
+    width: 620px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+}
+
+@media screen and (max-width: 690px){
+	.content-reg-2 {
+    margin-top: -42%;
+}
+}
+
+@media screen and (max-width: 680px){
+	.content-reg-2 {
+    margin-top: -43%;
+}
+
+	.setting-back {
+    margin-left: -10px;
+    width: 620px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+	.setting-data {
+    margin-left: -10px;
+    width: 620px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    background: #2184be;
+    color: #fff;
+    display: block;
+    padding: 1em 2em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: 115px;
+    margin-right: 40px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f39748;
+    box-shadow: 0 10px 30px 0 rgba(243, 151, 72, 0.27);
+}
+}
+
+@media screen and (max-width: 670px){
+	.content-reg-2 {
+    margin-top: -43.5%;
+}
+}
+
+@media screen and (max-width: 660px){
+	.content-reg-2 {
+    margin-top: -44.5%;
+}
+
+	.setting-back {
+    margin-left: -15px;
+    width: 603px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+	.setting-data {
+    margin-left: -15px;
+    width: 603px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+	.title-form-2 {
+    width: 70%;
+    height: 48px;
+    margin-left: 90px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 48px;
+}
+}
+
+@media screen and (max-width: 640px){
+	.content-reg-2 {
+    margin-top: -45.5%;
+}
+}
+
+@media screen and (max-width: 620px){
+	.content-reg-2 {
+    margin-top: -46.5%;
+}
+
+	.setting-data {
+    margin-left: -28px;
+    width: 603px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+} 
+
+	.setting-back {
+    margin-left: -28px;
+    width: 603px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    background: #2184be;
+    color: #fff;
+    display: block;
+    padding: 1em 2em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: 92px;
+    margin-right: 40px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f39748;
+    box-shadow: 0 10px 30px 0 rgba(243, 151, 72, 0.27);
+}
+}
+
+@media screen and (max-width: 600px){
+	.content-reg-2 {
+    margin-top: -47.5%;
+}
+
+	.setting-data {
+    margin-left: -39px;
+    width: 603px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+} 
+
+	.setting-back {
+    margin-left: -39px;
+    width: 603px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+	
+}
+
+@media screen and (max-width: 590px){
+	.content-reg-2 {
+    margin-top: -48.5%;
+}
+
+	.setting-back {
+    margin-left: -20px;
+    width: 560px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+	.setting-data {
+    margin-left: -20px;
+    width: 560px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+	
+}
+
+@media screen and (max-width: 580px){
+	.content-reg-2 {
+    margin-top: -49.5%;
+}
+
+	.setting-back {
+    margin-left: -20px;
+    width: 113%;
+}
+
+	.setting-data {
+    margin-left: -20px;
+	width: 113%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    margin-left:85px;
+}
+
+	.title-form{
+	margin-left:140px;		
+}
+	
+}
+
+@media screen and (max-width: 570px){
+	.content-reg-2 {
+    margin-top: -51%;
+}
+	
+}
+
+@media screen and (max-width: 560px){
+	.content-reg-2 {
+    margin-top: -52%;
+}
+
+	.setting-back {
+    margin-left: -20px;
+    width: 113%;
+}
+
+	.setting-data {
+    margin-left: -20px;
+	width: 113%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    margin-left: 0%;
+	width:200%;
+}
+
+	.title-form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+	.title-form-2{
+	margin-left: auto;
+    margin-right: auto;
+	}
+	
+}
+
+@media screen and (max-width: 550px){
+	.content-reg-2 {
+    margin-top: -53%;
+}
+}
+
+@media screen and (max-width: 540px){
+	.content-reg-2 {
+    margin-top: -54%;
+}
+}
+
+@media screen and (max-width: 530px){
+	.content-reg-2 {
+    margin-top: -55%;
+}
+}
+
+@media screen and (max-width: 520px){
+	.content-reg-2 {
+    margin-top: -56%;
+}
+
+	.title-form {
+    margin-left: 21%;
+	width:60%;
+}
+}
+
+@media screen and (max-width: 510px){
+	.content-reg-2 {
+    margin-top: -57%;
+}
+	
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    margin-left: -5%;
+	width:200%;
+}
+}
+
+@media screen and (max-width: 500px){
+	.content-reg-2 {
+    margin-top: -58%;
+}
+
+}
+
+@media screen and (max-width: 490px){
+	.content-reg-2 {
+    margin-top: -59%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    margin-left: -10%;
+	width:200%;
+}
+
+}
+
+@media screen and (max-width: 480px){
+	.content-reg-2 {
+    margin-top: -61%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    margin-left: -15%;
+	width:200%;
+}
+
+}
+
+@media screen and (max-width: 470px){
+	.content-reg-2 {
+    margin-top: -63%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    margin-left: -18%;
+	width:200%;
+}
+
+}
+
+@media screen and (max-width: 460px){
+	.content-reg-2 {
+    margin-top: -64%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    margin-left: -20%;
+	width:200%;
+}
+
+}
+
+@media screen and (max-width: 450px){
+	.content-reg-2 {
+    margin-top: -65%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    margin-left: -23%;
+	width:200%;
+}
+
+}
+
+@media screen and (max-width: 440px){
+	.content-reg-2 {
+    margin-top: -66%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    margin-left: -25%;
+	width:200%;
+}
+
+}
+
+@media screen and (max-width: 430px){
+	.content-reg-2 {
+    margin-top: -68%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    background: #2184be;
+    color: #fff;
+    display: block;
+    padding: 1em 2em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: -45px;
+    margin-right: 40px;
+    margin-top: -60px;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f39748;
+    box-shadow: 0 10px 30px 0 rgba(243, 151, 72, 0.27);
+}
+
+}
+
 
 @media screen and (max-width: 479px){
   .content-product .box{
@@ -1612,6 +2266,274 @@ ul{
   .category-content .list-inline li{
     margin-bottom: 4px;
   }
+}
+
+@media screen and (max-width: 425px){
+	.content-reg-2 {
+    margin-top: -67%;
+}
+
+	.setting-back {
+    margin-left: -28px;
+	width: 390px;
+}
+
+	.setting-data {
+    margin-left: -28px;
+	width: 390px;
+}
+
+	.title-form {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+	.title-form-2 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+	/* --- Action Clearfix --- */
+
+.wizard > .actions a,
+.wizard > .actions a:hover,
+.wizard > .actions a:active
+{
+    background: #2184be;
+    color: #fff;
+    display: block;
+    padding: 1em 2em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	margin-left:-45px;
+    margin-right: 40px;
+	margin-top: -60px;
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f39748;
+    box-shadow: 0 10px 30px 0 rgba(243, 151, 72, 0.27);
+}
+
+	.box-body {
+    padding: 0;
+    width: 100%;
+    height: 500px;
+    background-color: #eff1f5;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+}
+
+@media screen and (max-width: 410px){
+	.input-password {
+    width: 82%;
+	}
+	
+	.content-reg-2 {
+    margin-top: -72%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    width: 235%;
+}
+}
+
+@media screen and (max-width: 400px){
+	
+	.content-reg-2 {
+    margin-top: -74%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    width: 230%;
+}
+}
+
+@media screen and (max-width: 390px){
+	
+	.title-form {
+    width: 70%;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+	.title-form-2 {
+    width: 70%;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+	
+	.content-reg-2 {
+    margin-top: -76%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    width: 220%;
+}
+
+	.input-password {
+    width: 78%;
+	}
+}
+
+@media screen and (max-width: 380px){
+	
+	.title-form {
+    width: 70%;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+
+	.title-form-2 {
+    width: 70%;
+    margin-left: 14%;
+    margin-right: 14%;
+}
+	
+	.content-reg-2 {
+    margin-top: -78%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    width: 215%;
+}
+
+	.input-password {
+    width: 76%;
+	}
+}
+
+@media screen and (max-width: 370px){
+	
+	.title-form {
+    width: 70%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+	.title-form-2 {
+    width: 70%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+	
+	.content-reg-2 {
+    margin-top: -80%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    width: 210%;
+}
+
+	.input-password {
+    width: 74%;
+	}
+}
+
+@media screen and (max-width: 360px){
+	
+	.title-form {
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+	.title-form-2 {
+    width: 70%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+	
+	.content-reg-2 {
+    margin-top: -82%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    width: 205%;
+}
+
+	.input-password {
+    width: 72%;
+	}
+}
+
+@media screen and (max-width: 350px){
+	
+	.content-reg-2 {
+    margin-top: -84%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    width: 195%;
+}
+
+	.input-password {
+    width: 70%;
+	}
+}
+
+@media screen and (max-width: 340px){
+	
+	.title-form {
+    width: 70%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+	.title-form-2 {
+    width: 70%;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+	
+	.content-reg-2 {
+    margin-top: -86%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    width: 185%;
+}
+
+	.input-password {
+    width: 66%;
+	}
+}
+
+@media screen and (max-width: 330px){
+	
+	.title-form {
+    width: 70%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+	.title-form-2 {
+    width: 70%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+	
+	.content-reg-2 {
+    margin-top: -88%;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    width: 175%;
+}
+
+	.input-password {
+    width: 62%;
+	}
+	
+	.wizard > .content > .body ul > li {
+    display: list-item;
+    margin-left: 55px;
+    width: 215px;
+}
 }
 
 @media screen and (max-width: 399px){
@@ -1734,4 +2656,158 @@ ul{
     display: none;
   }
   
+  
+}
+
+@media screen and (max-width: 320px){
+	.content-reg-2 {
+    margin-top: -94%;
+}
+	.setting-back {
+    margin-left: -28px;
+    width: 620px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+	.setting-data {
+    margin-left: -28px;
+    width: 620px;
+    height: 523px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+	.title-form {
+    width: 42%;
+    height: 48px;
+    margin-left: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 48px;
+}
+
+	.title-form-2 {
+    width: 42%;
+    height: 48px;
+    margin-left: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 48px;
+}
+
+	.input-password {
+    width: 38.5%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: solid 0.5px #cccccc;
+    margin-left: 39px;
+    padding-top: 10px;
+}
+
+.wizard > .content > .body ul > li {
+    display: list-item;
+    margin-left: 55px;
+    width: 215px;
+}
+
+/* --- Action Clearfix --- */
+
+.wizard > .actions a,
+.wizard > .actions a:hover,
+.wizard > .actions a:active
+{
+    background: #2184be;
+    color: #fff;
+    display: block;
+    padding: 1em 2em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+	margin-left:-45px;
+    margin-right: 40px;
+	margin-top: -60px;
+    width: 245px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f39748;
+    box-shadow: 0 10px 30px 0 rgba(243, 151, 72, 0.27);
+}
+
+/* Box Panel */
+.box{
+  border-radius: 0px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 23px 52px 6px rgba(205, 205, 205, 0.39);
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+/* --- Box Body --- */
+.box-body {
+    padding: 0;
+    width: 100%;
+    height: 536px;
+    background-color: #eff1f5;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+}
+
+@media screen and (max-width: 319px) and (min-width:260px){
+	.title-form {
+    width: 34%;
+    height: 48px;
+    margin-left: 28px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 48px;
+}
+
+	.input-password {
+    width: 30.5%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: solid 0.5px #cccccc;
+    margin-left: 39px;
+    padding-top: 10px;
+}
+
+	.wizard > .content > .body ul > li {
+    display: list-item;
+    margin-left: 55px;
+    width: 200px;
+}
+
+	.wizard > .actions a, .wizard > .actions a:hover, .wizard > .actions a:active {
+    background: #2184be;
+    color: #fff;
+    display: block;
+    padding: 1em 2em;
+    text-decoration: none;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-left: -45px;
+    margin-right: 40px;
+    margin-top: -60px;
+    width: 195px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f39748;
+    box-shadow: 0 10px 30px 0 rgba(243, 151, 72, 0.27);
+}
 }

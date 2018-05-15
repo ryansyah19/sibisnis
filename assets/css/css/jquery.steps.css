@@ -54,14 +54,6 @@
     Wizard
 */
 
-.wizard > .steps
-{
-    position: relative;
-    display: block;
-    width: 100%;
-	background-color:#fff;
-	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
-}
 
 .wizard.vertical > .steps
 {
@@ -120,18 +112,7 @@
 	width: 726px;
 }
 
-.wizard > .steps .current a,
-.wizard > .steps .current a:hover,
-.wizard > .steps .current a:active
-{
-    background: #ffffff;
-    color: #404852;
-    cursor: default;
-    width: 294.5%;
-    margin: 0;
-    margin-left: 125%;
-    /* padding-left: 160%; */
-}
+
 
 .wizard > .steps .done a,
 .wizard > .steps .done a:hover,
@@ -153,19 +134,7 @@
     color: #fff;
 }
 
-.wizard > .content
-{
-    background: #eff1f5;
-    display: block;
-    min-height: 35em;
-    overflow: hidden;
-    position: relative;
-    width: auto;
 
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-}
 
 .wizard.vertical > .content
 {
@@ -235,16 +204,6 @@
     margin-left: 1.5em;
 }
 
-.wizard > .actions
-{
-    position: relative;
-    display: block;
-    text-align: center;
-    width: 64%;
-    margin-left: 184px;
-    background-color: #fff;
-	padding-top:39px;
-}
 
 .wizard.vertical > .actions
 {
@@ -257,7 +216,7 @@
 .wizard > .actions > ul
 {
     display: inline-block;
-    text-align: right;
+    text-align: center;
 	padding-bottom:41px;
 }
 
@@ -272,26 +231,7 @@
     margin: 0 0 0 1em;
 }
 
-.wizard > .actions a,
-.wizard > .actions a:hover,
-.wizard > .actions a:active
-{
-    background: #2184be;
-    color: #fff;
-    display: block;
-    padding: 1em 2em;
-    text-decoration: none;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-	margin-left: 424px;
-    margin-right: 40px;
-    width: 150px;
-    height: 50px;
-    border-radius: 5px;
-    background-color: #f39748;
-    box-shadow: 0 10px 30px 0 rgba(243, 151, 72, 0.27);
-}
+
 
 .wizard > .actions .disabled a,
 .wizard > .actions .disabled a:hover,
