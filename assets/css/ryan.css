@@ -202,8 +202,6 @@ ul{
 }
 /* Box Panel */
 .box{
-  border-radius: 7.2px;
-  border: none;
   background-color: #fff;
   box-shadow: 0 23px 52px 6px rgba(205, 205, 205, 0.39);
   margin-bottom: 40px;
@@ -1251,7 +1249,7 @@ ul{
     cursor: default;
     width: 294.5%;
     margin: 0;
-    margin-left: 125%;
+    margin-left: 150%;
     /* padding-left: 160%; */
 }
 
@@ -1301,6 +1299,41 @@ ul{
     border-radius: 5px;
     background-color: #f39748;
     box-shadow: 0 10px 30px 0 rgba(243, 151, 72, 0.27);
+}
+
+.right{
+	margin-left:-10%;
+}
+
+.wizard > .steps .disabled a,
+.wizard > .steps .disabled a:hover,
+.wizard > .steps .disabled a:active
+{
+    color: #404852;
+    cursor: default;
+    opacity: 0.4;
+    margin-left: -28%;
+    padding-left: 160%;
+    width: 726px;
+    height: 2px;
+}
+
+
+
+.wizard > .steps .done a,
+.wizard > .steps .done a:hover,
+.wizard > .steps .done a:active
+{
+    background: #ffffff;
+    color: #404852;
+    cursor: default;
+    width: 294.5%;
+    margin: 0;
+    margin-left: 150%;
+}
+
+.pass{
+	font-size: 200%;
 }
 
 /* --- Media Queries --- */
@@ -1478,7 +1511,7 @@ ul{
     cursor: default;
     width: 294.5%;
     margin: 0;
-    margin-left: 100%;
+    margin-left: 110%;
     /* padding-left: 160%; */
 }
 
@@ -1510,6 +1543,29 @@ ul{
     margin-left: 50px;
     background-color: #fff;
     padding-top: 39px;
+}
+
+.right{
+	margin-left:0;
+}
+
+.wizard > .steps .done a, .wizard > .steps .done a:hover, .wizard > .steps .done a:active {
+    background: #ffffff;
+    color: #404852;
+    cursor: default;
+    width: 294.5%;
+    margin: 0;
+    margin-left: 113%;
+}
+
+.wizard > .steps .disabled a, .wizard > .steps .disabled a:hover, .wizard > .steps .disabled a:active {
+    color: #404852;
+    cursor: default;
+    opacity: 0.4;
+    margin-left: -45%;
+    padding-left: 160%;
+    width: 726px;
+    height: 2px;
 }
   
 }

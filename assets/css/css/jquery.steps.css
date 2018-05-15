@@ -100,31 +100,6 @@
     border-radius: 5px;
 }
 
-.wizard > .steps .disabled a,
-.wizard > .steps .disabled a:hover,
-.wizard > .steps .disabled a:active
-{
-    color: #404852;
-    cursor: default;
-    opacity: 0.4;
-	margin-left: -58%;
-	padding-left: 160%;
-	width: 726px;
-}
-
-
-
-.wizard > .steps .done a,
-.wizard > .steps .done a:hover,
-.wizard > .steps .done a:active
-{
-    background: #ffffff;
-    color: #404852;
-    cursor: default;
-    width: 294.5%;
-    margin: 0;
-    margin-left: 150%;
-}
 
 .wizard > .steps .error a,
 .wizard > .steps .error a:hover,
