@@ -1074,7 +1074,7 @@ ul{
 }
 
 .wizard > .steps .disabled .disab, .wizard > .steps .disabled .disab, .wizard > .steps .disabled .disab{
-        background: #aaa;
+        background: #51d881;
         color: #fff;
         padding: 6px 9px;
         font-family: 'Helvetica', sans-serif;
@@ -1102,7 +1102,7 @@ ul{
  
  .line{
     border: solid 1px #979797;
-    margin: 0 5px 3px 15px;
+    margin: 0 15px 3px 15px;
     width: 35px;
     height: 0;
     color: #979797;
@@ -1246,11 +1246,8 @@ ul{
 {
     background: #ffffff;
     color: #404852;
-    cursor: default;
-    width: 294.5%;
-    margin: 0;
-    margin-left: 150%;
-    /* padding-left: 160%; */
+    width: auto;
+	display:inline-block;
 }
 
 /* --- Step Clearfix ---*/
@@ -1260,7 +1257,7 @@ ul{
     display: block;
     width: 100%;
     background-color: #fff;
-	border-bottom: 3px solid #eee;
+	z-index: 3;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -1292,10 +1289,9 @@ ul{
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-	margin-left: 424px;
-    margin-right: 40px;
-    width: 150px;
+    width: auto;
     height: 50px;
+	margin-right: 40px;
     border-radius: 5px;
     background-color: #f39748;
     box-shadow: 0 10px 30px 0 rgba(243, 151, 72, 0.27);
@@ -1312,9 +1308,7 @@ ul{
     color: #404852;
     cursor: default;
     opacity: 0.4;
-    margin-left: -28%;
-    padding-left: 160%;
-    width: 726px;
+    width: 100%;
     height: 2px;
 }
 
@@ -1327,9 +1321,7 @@ ul{
     background: #ffffff;
     color: #404852;
     cursor: default;
-    width: 294.5%;
-    margin: 0;
-    margin-left: 150%;
+    width: 100%;
 }
 
 .pass{
@@ -1509,10 +1501,7 @@ ul{
     background: #ffffff;
     color: #404852;
     cursor: default;
-    width: 294.5%;
-    margin: 0;
-    margin-left: 110%;
-    /* padding-left: 160%; */
+    width: auto;
 }
 
 /* --- Back Setting ---*/
@@ -1553,19 +1542,14 @@ ul{
     background: #ffffff;
     color: #404852;
     cursor: default;
-    width: 294.5%;
-    margin: 0;
-    margin-left: 113%;
+    width: auto;
 }
 
 .wizard > .steps .disabled a, .wizard > .steps .disabled a:hover, .wizard > .steps .disabled a:active {
     color: #404852;
     cursor: default;
     opacity: 0.4;
-    margin-left: -45%;
-    padding-left: 160%;
-    width: 726px;
-    height: 2px;
+    width: auto;
 }
   
 }
